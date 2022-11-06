@@ -1,3 +1,32 @@
 <resources>
-    <string name="app_name">VDNH</string>
+    <string name="app_name">VDNH App</string>
+
+    <string name="mapbox_access_token">pk.eyJ1IjoiYW5hdG9saXktb2xvbG8iLCJhIjoiY2p0OTA2YmtsMGQ5NjQ1bXJhdTIybzR6aSJ9.2XNGR0tsOpFC7oWwQRzgVw</string>
+
+    <string name="onboardingHeading1">Настроика ваших интересов</string>
+    <string name="onboardingHeading2">Настроика ваших интересов</string>
+    <string name="onboardingHeading3">Вопросы для статистики</string>
+
+    <string name="onboardingText1">Настроика ваших интересов</string>
+    <string name="onboardingText2">Настроика ваших интересов</string>
+    <string name="onboardingText3">Вопросы для статистики</string>
+
+    <string name="welcome_back">С возвращением</string>
+    <string name="forgot_password">Забыли пароль?</string>
+    <string name="login">Вход</string>
+    <string name="or_sign_in_with"> или зарегистрироваться</string>
+    <string name="log_out">Выход</string>
+    <string name="login_with_google">Войти через Google</string>
+    <string name="display_picture">Показать фото</string>
+    <string name="saved_addresses">Saved Addresses</string>
+    <string name="login_with_facebook">Войти через Facebook</string>
+    <string name="payments_and_refunds">Оплата</string>
+    <string name="information_about_refunds_and_payments"> Информация о покупках и возвратах</string>
+    <string name="help">Помощь</string>
+    <string name="information_about_ordering">Информация о покупке</string>
+    <string name="about">О нас</string>
+    <string name="about_the_app">О приложении</string>
+    <string name="with">\"С \"</string>
+    <string name="love">Лайк</string>
+    <string name="location">Расположение</string>
 </resources>

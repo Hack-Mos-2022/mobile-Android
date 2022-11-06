@@ -4,8 +4,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.ReadOnlyComposable
 import androidx.compose.runtime.remember
-
 object AppTheme {
+
 
     val colors: AppColors
         @Composable
@@ -21,6 +21,12 @@ object AppTheme {
         @Composable
         @ReadOnlyComposable
         get() = LocalDimensions.current
+
+    val elevations: AppElevations
+        @Composable
+        @ReadOnlyComposable
+        get() = LocalElevations.current
+
 }
 
 @Composable

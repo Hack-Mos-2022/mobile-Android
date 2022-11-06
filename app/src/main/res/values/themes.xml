@@ -2,4 +2,13 @@
 <resources>
 
     <style name="Theme.VDNH" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.SplashScreenTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/main_red</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_vdnh_splash_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.VDNH</item>
+    </style>
+
 </resources>
+
+

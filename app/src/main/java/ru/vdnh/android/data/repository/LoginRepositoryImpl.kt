@@ -19,11 +19,11 @@ class LoginRepositoryImpl(context: Context) : LoginRepository {
     }
 
     override fun isLoggedIn(): Boolean {
-        return true //prefs.getBoolean(IS_USER_LOGGED_IN, false)
+        return prefs.getBoolean(IS_USER_LOGGED_IN, false)
     }
 
     override fun isOnboardingFinished(): Boolean {
-        return true //prefs.getBoolean(IS_USER_FINISHED_ONBOARDING, false)
+        return prefs.getBoolean(IS_USER_FINISHED_ONBOARDING, false)
     }
 
     override fun toggleFinishOnboarding() {

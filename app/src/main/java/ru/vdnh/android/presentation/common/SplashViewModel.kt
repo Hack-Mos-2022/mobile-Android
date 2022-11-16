@@ -25,6 +25,7 @@ class SplashViewModel @Inject constructor(
 
     init {
         viewModelScope.launch {
+//            delay(3000)
             _startDestination.value =
                 when {
                     repository.isLoggedIn() && repository.isOnboardingFinished() -> Screen.Home.route

@@ -1,6 +1,6 @@
 package ru.vdnh.android.presentation.login
 
-data class FoodikeTextFieldState(
+data class TextFieldState(
     val text: String = "",
     val hint: String = "",
 )

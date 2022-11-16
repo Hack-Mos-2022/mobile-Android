@@ -79,11 +79,11 @@ fun Colors.compositedOnSurface(alpha: Float): Color {
 
 
 
-private val colorDarkPrimary = Color(0xFF0037FF)
-private val colorDarkSecondary = Color(0xFF0037FF)
-private val colorDarkTextPrimary = Color(0xFFFAFAFA)
-private val colorDarkTextSecondary = Color(0xFF6C727A)
-private val colorDarkBackground = Color(0xFF090A0A)
+private val colorDarkPrimary = Color(0xFFEF4850)
+private val colorDarkSecondary = Color(0xFF3A3A3A)
+private val colorDarkTextPrimary = Color(0xFFFFFFFF)
+private val colorDarkTextSecondary = Color(0xFFB7B7B7)
+private val colorDarkBackground = Color(0xFF141414)
 private val colorDarkError = Color(0xFFD62222)
 
 //fun lightColors(

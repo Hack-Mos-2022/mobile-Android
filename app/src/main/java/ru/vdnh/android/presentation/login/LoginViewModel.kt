@@ -18,18 +18,18 @@ class LoginViewModel @Inject constructor(
 ) : ViewModel() {
 
     private val _email = mutableStateOf(
-        FoodikeTextFieldState(
+        TextFieldState(
             hint = "Enter email or phone number"
         )
     )
-    val email: State<FoodikeTextFieldState> = _email
+    val email: State<TextFieldState> = _email
 
     private val _password = mutableStateOf(
-        FoodikeTextFieldState(
+        TextFieldState(
             hint = "Password"
         )
     )
-    val password: State<FoodikeTextFieldState> = _password
+    val password: State<TextFieldState> = _password
 
     private val _eventFlow = MutableSharedFlow<UiEvent>()
     val eventFlow = _eventFlow.asSharedFlow()

@@ -21,11 +21,12 @@ class MainActivity : ComponentActivity() {
     lateinit var splashViewModel: SplashViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-
-        installSplashScreen().setKeepOnScreenCondition {
+        installSplashScreen()
+            .setKeepOnScreenCondition {
+//            true
             splashViewModel.isLoading.value
         }
+        super.onCreate(savedInstanceState)
 
         setContent {
             AppTheme {

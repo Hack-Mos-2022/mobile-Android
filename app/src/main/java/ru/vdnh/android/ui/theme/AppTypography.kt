@@ -43,6 +43,11 @@ data class AppTypography(
         fontWeight = FontWeight.Bold,
         fontSize = 32.sp,
     ),
+    val headline5: TextStyle = TextStyle(
+        fontFamily = gilroy,
+        fontWeight = FontWeight.SemiBold,
+        fontSize = 24.sp,
+    ),
     val body: TextStyle = TextStyle(
         fontFamily = gilroy,
         fontWeight = FontWeight.Normal,
@@ -53,11 +58,12 @@ data class AppTypography(
 //        fontWeight = FontWeight.Normal,
 //        fontSize = 16.sp
 //    ),
-//    val caption: TextStyle = TextStyle(
-//        fontFamily = openSans,
-//        fontWeight = FontWeight.Normal,
-//        fontSize = 12.sp
-//    )
+    val caption: TextStyle = TextStyle(
+        fontFamily = gilroy,
+        fontWeight = FontWeight.Normal,
+        fontSize = 14.sp,
+        lineHeight = 14.sp
+    )
 )
 
 internal val LocalTypography = staticCompositionLocalOf { AppTypography() }

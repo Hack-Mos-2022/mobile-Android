@@ -11,9 +11,12 @@
     <string name="onboardingText2">Настроика ваших интересов</string>
     <string name="onboardingText3">Вопросы для статистики</string>
 
-    <string name="welcome_back">С возвращением</string>
+    <string name="welcome_create_account">Создайте аккаунт и получайте море впечетлений от событий в выставочном центре ВДНХ</string>
     <string name="forgot_password">Забыли пароль?</string>
-    <string name="login">Вход</string>
+    <string name="login_phone">Номер телефона</string>
+    <string name="login_sber_id">SberID</string>
+    <string name="login_vk">ВКонтакте</string>
+    <string name="login_yandex">Яндекс</string>
     <string name="or_sign_in_with"> или зарегистрироваться</string>
     <string name="log_out">Выход</string>
     <string name="login_with_google">Войти через Google</string>
@@ -29,4 +32,5 @@
     <string name="with">\"С \"</string>
     <string name="love">Лайк</string>
     <string name="location">Расположение</string>
+    <string name="welcome_please_register">Зарегистрируйтесь, получайте больше привелегий и бонусов</string>
 </resources>
